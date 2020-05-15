@@ -2,41 +2,50 @@
 <html>
 
 <head>
-
   <meta charset="UTF-8">
-  <meta name="vw" content="width=device-width" , initial-scale="1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie-edge">
-  <title>Meu primeiro teste</title>
+  <title>PS: Tô On</title>
   <style>
     body {
       background-color: black;
+    }
+
+    h1 {
       color: yellow;
       font: normal 20pt arial;
+      text-align: center;
+    }
+
+    a {
+      text-align: center;
+      color: wheat;
     }
 
     h1 {
       font: Times New Roman;
+    }
+
+    body {
+    margin: 0;            /* Reset default margin */
+    }
+    iframe {
+        display: block;       /* iframes are inline by default */
+        background: #000;
+       /* border: none;         /* Reset default border */
+        height: 100vh;        /* Viewport-relative units */
+        width: 90vw;
     }
   </style>
 </head>
 
 <body>
   <h1>Olá Mundo</h1>
-  <p>Estou livre de maldição</p>
+
   <a href="pri.html">
     <p>Visitar minha page</p>
   </a>
 
-  <iframe src="https://tableless.github.io/iniciantes/manual/html/"></iframe>
 
-  <script>
-    /*PODE SER SÓ ALERT*/
-    //window.alert('PRIMEIRA MENSAGEM')
-    //window.confirm('Curtindo a experiencia?')
+  <iframe  src="https://tableless.github.io/iniciantes/manual/html/" frameborder="0"></iframe>
 
-    var nome = window.prompt('Qual é seu nome ?')
-
-    alert('bem vindo ' + nome + '!')
-  </script>
 
 </body>
